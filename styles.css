@@ -1,0 +1,54 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+#recipes{
+    border-radius: 25px;
+    background-color:aqua;
+    font-size:32px;
+    text-align:center;
+    font-weight:900;
+    padding:auto;
+    border:8px solid whitesmoke;
+    margin:20px;
+}
+
+.lasagna{
+    background-color:yellow;
+    color:black;
+}
+
+.plov{
+    background-color:palevioletred;
+    color:black;
+}
+
+.tortilla{
+    background-color:paleturquoise;
+    color:black;
+}
+
+.lasagna,
+.tortilla,
+.plov {
+    border-radius:25px;
+    font-size: 28px;
+    font-weight:bold;
+    box-shadow:5px 10px white;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a:visited{
+    color:black;
+}
+
+body{
+    background-color: black;
+}
